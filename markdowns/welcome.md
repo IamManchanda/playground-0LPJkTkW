@@ -69,6 +69,8 @@ flex-basis: initial;
 flex-basis: unset;
 ```
 
+@[Flex Basis]({"stubs": ["flex-basis.scss", "flex-basis.html", "flex-basis.js"], "command": "/bin/bash /project/target/run.sh flex-basis"})
+
 Codepen also [available](https://codepen.io/IamManchanda/pen/BwWpBW)
 
 You can learn more about Flex Basis [here](https://chriswrightdesign.com/experiments/flexbox-adventures/).
