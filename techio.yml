@@ -1,0 +1,11 @@
+title : Flexbox and CSS Grid Part. 3
+plan:
+  - title: Flexbox and CSS Grid Part. 3
+    statement: markdowns/welcome.md
+projects:
+  sass:
+   root: root
+   buildCommand: "cd /project/target && chmod +x prebuild.sh && ./prebuild.sh"
+   runner:
+    name: ruby
+    version: latest
