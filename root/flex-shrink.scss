@@ -5,11 +5,13 @@
 }
 
 .item {
+  flex-grow: 1;
   flex-shrink: 0;
+  flex-basis: auto;
 }
 
 .item.two {
-  flex-shrink: 2;
+  flex-shrink: 5;
 }
 
 /**
