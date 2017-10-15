@@ -116,7 +116,7 @@ For most purposes, authors should set `flex` to one of the following values: `au
 
 > The item is sized according to its `width` and `height` properties. It is fully inflexible: it neither shrinks nor grows in relation to the flex container. This is equivalent to "`flex: 0 0 auto`".
 
-`**<positive-number>**`
+`<positive-number>`
 
 > The item is given the specified proportion of the free space in the container. This is equivalent to setting "`flex: <positive-number> 1 0`".
 
