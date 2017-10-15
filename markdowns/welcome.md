@@ -2,7 +2,7 @@
 
 This article is **Part 3** for the series **“Flexbox and CSS Grid”.**
 
-In previous article, we learned on how to globally lay out all the flex items within a flex container by adding flexbox property values to that container. The flexible box layout specification provides several additional properties applicable directly to flex items. With these flex item–specific properties, we can more precisely control the layout of individual flex containers’ non-anonymous flex items. 
+In [previous](https://tech.io/playgrounds/7394/flexbox-and-css-grid-part--2) article, we learned on how to globally lay out all the flex items within a flex container by adding flexbox property values to that container. The flexible box layout specification provides several additional properties applicable directly to flex items. With these flex item–specific properties, we can more precisely control the layout of individual flex containers’ non-anonymous flex items. 
 
 > The children of the flex container are called flex items, be they DOM nodes, non-empty text nodes, or generated content. When it comes to text-node children of flex containers, if the text node is not empty (containing content other than whitespace) it will be wrapped in an anonymous flex item, behaving like its flex item siblings. While these anonymous flex items do inherit all the flex properties set by the flex container, just like their DOM node siblings, they are not directly targetable with CSS. Thus, we can’t directly set any of the flex item–specific properties on them. 
 
