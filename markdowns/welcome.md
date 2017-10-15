@@ -24,6 +24,8 @@ If the flex items are been laid out within the flex line such that they *don’t
 
 Negative numbers are not allowed. Float values, as long as they are greater than 0, are valid. The value specifies the growth factor, which determines how much the flex item will grow relative to the rest of the flex item siblings as the flex container’s free space is distributed. If there is any available space within the flex container, the space will be distributed proportionally among the children with a nonzero positive growth factor based on the various values of those growth factors.
 
+@[Flex Grow]({"stubs": ["flex-grow.scss", "flex-grow.html"], "command": "/bin/bash /project/target/run.sh flex-grow"})
+
 Codepen also [available](https://codepen.io/IamManchanda/pen/BwWQPz)
 
 ## Flex Shrink
@@ -31,6 +33,8 @@ Codepen also [available](https://codepen.io/IamManchanda/pen/BwWQPz)
 The `flex-shrink` property specifies the shrink factor. The shrink factor determines how much a flex item will shrink relative to the rest of the flex item siblings when there isn’t enough space for them all to fit as defined by their content, basis, and other CSS properties. Basically, the shrink factor defines how the *negative space* is distributed, or how flex items should become narrower or shorter, when the flex container parent isn’t allowed to otherwise grow or wrap.
 
 If the sum of the main sizes of all the flex items is greater than the main size of the flex container, then you can specify how much you want to “shrink” the flex items. The amount by which the flex items’ main sizes exceed the container’s main size is the negative space. Using the `flex-shrink` property, you can distribute this negative space over the flex items. The negative space is distributed in proportion to `[flex-basis](https://tympanus.net/codrops/css_reference/flexbox/#section_flex-basis)` multiplied by the `flex-shrink` ratio, where the flex basis is the initial main size of the flex item, before free space is distributed according to the flex factors.
+
+@[Flex Shrink]({"stubs": ["flex-shrink.scss", "flex-shrink.html"], "command": "/bin/bash /project/target/run.sh flex-shrink"})
 
 Codepen also [available](https://codepen.io/IamManchanda/pen/zEZoMJ)
 
@@ -121,6 +125,8 @@ For most purposes, authors should set `flex` to one of the following values: `au
 > The item is given the specified proportion of the free space in the container. This is equivalent to setting "`flex: <positive-number> 1 0`".
 
 To see the effect of these values, try resizing the flex containers from the example below ( codepen originally forked from [MDN](https://mdn.mozillademos.org/en-US/docs/Web/CSS/flex$samples/flex)):
+
+@[Flex (Grow, Shrink, Basis)]({"stubs": ["flex.scss", "flex.html"], "command": "/bin/bash /project/target/run.sh flex"})
 
 Codepen also [available](https://codepen.io/IamManchanda/pen/mBWRrr)
 
